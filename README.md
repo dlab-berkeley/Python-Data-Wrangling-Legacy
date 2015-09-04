@@ -6,19 +6,19 @@ D-Lab Workshop
 * Basics
     The core data types: Series, DataFrame
 * Loading data
-    * `pd.read_csv`
+    * `pd.read_csv()`
         * Options
     * Other
         `pd.read_table`
         `pd.read_sql`
 * Viewing data
-    * .head()
-    * .tail()
+    * `.head()`
+    * `.tail()`
     * slicing (also `.iloc`, `.ix`, etc.)
 * Summary statistics
-    * .describe()
+    * `.describe()`
     * Series operations, e.g., `.mean()`.
-    * With numpy, e.g., quantile.
+    * With numpy, e.g., `.quantile()`.
     * Groupby
 * Missing values
 * Dates/times
