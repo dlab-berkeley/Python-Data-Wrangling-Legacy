@@ -10,7 +10,7 @@ The best learning experience happens when you can edit and run code. So, please 
 
 ```
 # clone the repository
-$ git clone https://github.com/juanshishido/introduction-to-pandas.git
+$ git clone https://github.com/dlab-berkeley/introduction-to-pandas.git
 
 # navigate to the repo
 $ cd introduction-to-pandas
