@@ -31,7 +31,7 @@ $ git clone https://github.com/dlab-berkeley/introduction-to-pandas.git
 # navigate to the repo
 $ cd introduction-to-pandas
 
-# start the interaction session
+# start the interactive aession
 $ jupyter notebook
 
 # alternatively
