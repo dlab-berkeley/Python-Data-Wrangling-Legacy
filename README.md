@@ -72,4 +72,4 @@ We plan to cover:
 
 ### 6. Launch binder
 
-If you have trouble installing the software or can otherwise not get the Jupyter Notebook to open, click this badge to launch this tutorial [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlab-berkeley/introduction-to-pandas/master)
+If you have trouble installing the software or can otherwise not get the Jupyter Notebook to open, click this "launch binder" badge to start this session [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlab-berkeley/introduction-to-pandas/master)
