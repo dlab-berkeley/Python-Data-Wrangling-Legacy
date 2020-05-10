@@ -1,48 +1,50 @@
-# pandas
+# D-Lab Introduction to Pandas workshop
 
-Materials for teaching the introductory pandas workshop at UC Berkeley's D-Lab.
+This repository contains materials for the introductory pandas workshop at the UC Berkeley D-Lab.
 
-## Set Up
+### 1. Software for the workshop
 
-For this workshop we'll be using a Jupyter notebook.
+The best learning experience happens when you can edit and run code. So, please have Python Anaconda Distribution 3.7, pandas, matplotlib, and Jupyter installed before the start of the workshop. Follow the steps below to setup your environment: 
 
-### Software for the workshop
+1. [Click here to download Python Anaconda 3.7 Distribution](https://www.anaconda.com/products/individual), although 3.6 is also okay if you already have it installed. Scroll down to the "Anaconda Installers" section and click the "Graphical Installer" option that corresponds to your operating system. 
 
-The best learning experience happens when you can edit and run code. So, please have pandas, Matplotlib, and Jupyter or IPython installed. There are several options for getting your environment set up.
+2. If you are using Terminal (Mac) or GitBash (PC), you can pip install the necessary packages by typing: 
 
-1. [Anaconda](http://continuum.io/downloads) with Python 3.5+ (2.7 is okay).
-2. Python 3.5+ (2.7 is okay) and required packages installed using a package manager, such as `conda` (via [Miniconda](https://conda.io/docs/install/quick.html)) or [pip](https://pip.pypa.io/en/stable/installing.html); you must install IPython 3.0+ with notebook support or IPython 4.0+/Jupyter 1.0+, pandas 0.17+, and Matplotlib 1.3+.
-3. (Perhaps as a last resort) [BCE Summer 2015](http://bce.berkeley.edu/install.html).
+`$ pip install pandas matplotlib jupyter`
 
-Both Anaconda and BCE distributions will install everything you need for this workshop (but BCE will most likely be out of date). If you decide to use `pip`, you can do the following (or for Miniconda, replace `pip` with `conda`):
+> Windows users only - if you wish to emulate the Bash programming language found in Mac users' "Terminal" application, [click here to download GitBash](https://git-scm.com/downloads), a Unix command-line environment for Windows users. 
 
-```
-# Install pandas and Matplotlib
-$ pip install pandas matplotlib
+Alternatively, you can install these packages by adding a cell to the top of your Jupyter Notebook and typing: 
 
-# Install Jupyter
-$ pip install --upgrade jupyter
-```
+`!pip install pandas matplotlib jupyter`
 
-### Files for the workshop
+### 2. Files for the workshop
 
-Once those are installed, you should get the necessary files for this workshop, which are contained in this repository. Get them by doing the following:
+Once the software is installed, download the necessary files for the workshops which are contained in this repository. Get them by doing the following:
 
-```
-# Clone this repository
-$ git clone https://github.com/dlab-berkeley/introduction-to-pandas.git
+1. Click the green "Clone or Download" button
+2. Click "Download Zip"
+3. Extract this .zip file someplace familiar, such as your Desktop. 
 
-# Navigate to the repo
-$ cd introduction-to-pandas
+Or, if you are a Git user you can simply clone this repository
 
-# Start the interactive session
-$ jupyter notebook
+`$ git clone git@github.com:dlab-berkeley/introduction-to-pandas.git`
 
-# ...alternatively (older versions of IPython)
-$ ipython notebook
-```
+### 3. Open a Jupyter Notebook
 
-## Outline
+1. Open the "Anaconda Navigator" application and click "Launch" under Jupyter Notebook
+
+or
+
+Navigate to the respository using Terminal or Gitbash and type
+
+`$ cd introduction-to-pandas`
+
+then
+
+`$ jupyter notebook` or `python3 -m notebook`
+
+### 4. Outline
 
 For this workshop, we'll go through an example using European unemployment data. We'll load, view, and modify the data as well as calculate some descriptive statistics. The idea is to get a sense of what it would be like to use pandas as part of your workflow.
 
@@ -58,6 +60,10 @@ We plan to cover:
 * basic plotting
 * exporting data
 
-## Further resources
+### 5. Further resources
 
-[pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/)
+[Getting started with pandas](http://pandas.pydata.org/pandas-docs/stable/)
+
+[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+
+[Visualization with pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
