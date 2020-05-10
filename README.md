@@ -44,6 +44,8 @@ then
 
 `$ jupyter notebook` or `python3 -m notebook`
 
+This will open a blank notebook for you to use as a scratch space is you desire. Open the file "introduction-to-pandas.ipynb" to access the tutorial.
+
 ### 4. Outline
 
 For this workshop, we'll go through an example using European unemployment data. We'll load, view, and modify the data as well as calculate some descriptive statistics. The idea is to get a sense of what it would be like to use pandas as part of your workflow.
