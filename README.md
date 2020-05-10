@@ -69,3 +69,7 @@ We plan to cover:
 [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 
 [Visualization with pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+
+### 6. Launch binder
+
+If you have trouble installing the software or can otherwise not get the Jupyter Notebook to open, click this badge to launch this tutorial [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlab-berkeley/introduction-to-pandas/master)
