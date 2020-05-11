@@ -62,7 +62,7 @@ We plan to cover:
 * basic plotting
 * exporting data
 
-### 5. Further resources
+### 5. Resources
 
 [Getting started with pandas](http://pandas.pydata.org/pandas-docs/stable/)
 
