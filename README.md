@@ -4,7 +4,9 @@ This repository contains materials for the introductory pandas workshop at the U
 
 ### 1. Software for the workshop
 
-The best learning experience happens when you can edit and run code. So, please have Python Anaconda Distribution 3.7, pandas, matplotlib, and Jupyter installed before the start of the workshop. Follow the steps below to setup your environment: 
+The best learning experience happens when you can edit and run code. So, please have Python Anaconda Distribution 3.7, pandas, matplotlib, and Jupyter installed before the start of the workshop. Alternatively, if you cannot install Anaconda, you can still access the workshop materials through this [datahub link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2Fintroduction-to-pandas&urlpath=tree%2Fintroduction-to-pandas%2F&branch=master). Note, this will only work if you have a berkeley.edu email address.
+
+To use Anaconda, follow the steps below to setup your environment: 
 
 1. [Click here to download Python Anaconda 3.7 Distribution](https://www.anaconda.com/products/individual), although 3.6 is also okay if you already have it installed. Scroll down to the "Anaconda Installers" section and click the "Graphical Installer" option that corresponds to your operating system. 
 
