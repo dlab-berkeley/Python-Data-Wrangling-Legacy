@@ -1,70 +1,63 @@
-# D-Lab Introduction to Pandas workshop
+# D-Lab's Python Data Wrangling Workshop
 
-This repository contains materials for the introductory pandas workshop at the UC Berkeley D-Lab.
+[![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Data-Wrangling&urlpath=tree%2FPython-Data-Wrangling%2F&branch=main)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/dlab-berkeley/Python-Data-Wrangling/HEAD)
 
-### 1. Software for the workshop
+This repository contains the materials for D-Lab's Python Data Wrangling workshop. Prior experience with [Python Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) is assumed.
 
-The best learning experience happens when you can edit and run code. So, please have Python Anaconda Distribution 3.7, pandas, matplotlib, and Jupyter installed before the start of the workshop. Alternatively, if you cannot install Anaconda, you can still access the workshop materials through this [datahub link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2Fintroduction-to-pandas&urlpath=tree%2Fintroduction-to-pandas%2F&branch=master). Note, this will only work if you have a berkeley.edu email address.
+## Workshop Goals
 
-To use Anaconda, follow the steps below to setup your environment: 
+In this workshop, we provide an introduction to data wrangling with Python. We will do so largely with the `pandas` package, which provides a rich set of tools to manipulate and interact with *data frames*, the most common data structure used when analyzing tabular data. We'll learn how to manipulate, index, merge, group, and plot data frames using `pandas` functions.
 
-1. [Click here to download Python Anaconda 3.7 Distribution](https://www.anaconda.com/products/individual), although 3.6 is also okay if you already have it installed. Scroll down to the "Anaconda Installers" section and click the "Graphical Installer" option that corresponds to your operating system. 
+Basic familiarity with Python *is* assumed. If you are not familiar with the material in [Python Fundamentals](https://github.com/dlab-berkeley/python-fundamentals), we recommend attending that workshop first.
 
-2. If you are using Terminal (Mac) or GitBash (PC), you can pip install the necessary packages by typing: 
+## Installation Instructions
 
-`$ pip install pandas matplotlib jupyter`
+Anaconda is a useful package management software that allows you to run Python and Jupyter notebooks very easily. Installing Anaconda is the easiest way to make sure you have all the necessary software to run the materials for this workshop. Complete the following steps:
 
-> Windows users only - if you wish to emulate the Bash programming language found in Mac users' "Terminal" application, [click here to download GitBash](https://git-scm.com/downloads), a Unix command-line environment for Windows users. 
+1. [Download and install Anaconda (Python 3.8 distribution)](https://www.anaconda.com/products/individual). Click "Download" and then click 64-bit "Graphical Installer" for your current operating system.
 
-Alternatively, you can install these packages by adding a cell to the top of your Jupyter Notebook and typing: 
+2. Download the [Python-Data-Wrangling workshop materials](https://github.com/dlab-berkeley/Python-Data-Wrangling):
 
-`!pip install pandas matplotlib jupyter`
+* Click the green "Code" button in the top right of the repository information.
+* Click "Download Zip".
+* Extract this file to a folder on your computer where you can easily access it (we recommend Desktop).
 
-### 2. Files for the workshop
+3. Optional: if you're familiar with `git`, you can instead clone this repository by opening a terminal and entering `git clone git@github.com:dlab-berkeley/Python-Data-Wrangling.git`.
 
-Once the software is installed, download the necessary files for the workshops which are contained in this repository. Get them by doing the following:
+## Run the code
 
-1. Click the green "Clone or Download" button
-2. Click "Download Zip"
-3. Extract this .zip file someplace familiar, such as your Desktop. 
+Now that you have all the required software and materials, you need to run the code:
 
-Or, if you are a Git user you can simply clone this repository
+1. Open the Anaconda Navigator application. You should see the green snake logo appear on your screen. Note that this can take a few minutes to load up the first time. 
 
-`$ git clone git@github.com:dlab-berkeley/introduction-to-pandas.git`
+2. Click the "Launch" button under "Jupyter Notebooks" and navigate through your file system to the `Python-Data-Visualization` folder you downloaded above.
 
-### 3. Open a Jupyter Notebook
+3. Open the `lessons` folder, and click `01_pandas.ipynb` to begin.
 
-1. Open the "Anaconda Navigator" application and click "Launch" under Jupyter Notebook
+4. Press Shift + Enter (or Ctrl + Enter) to run a cell.
 
-or
+5. By default, the necessary packages for this workshop should already be installed. You can install them within the Jupyter notebook by running the following line in its own cell:
 
-Navigate to the respository using Terminal or Gitbash and type
+> ```!pip install -r requirements.txt```
 
-`$ cd introduction-to-pandas`
+Note that all of the above steps can be run from the terminal, if you're familiar with how to interact with Anaconda in that fashion. However, using Anaconda Navigator is the easiest way to get started if this is your first time working with Anaconda.
 
-then
+## Is Python not working on your laptop? 
 
-`$ jupyter notebook` or `python3 -m notebook`
+If you do not have Anaconda installed and the materials loaded on your workshop by the time it starts, we *strongly* recommend using the UC Berkeley Datahub to run the materials for these lessons. You can access the DataHub by clicking this button: 
 
-This will open a blank notebook for you to use as a scratch space is you desire. Open the file "introduction-to-pandas.ipynb" to access the tutorial.
+[![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Data-Wrangling&urlpath=tree%2FPython-Data-Wrangling%2F&branch=main)
 
-### 4. Outline
+The DataHub downloads this repository, along with any necessary packages, and allows you to run the materials in a Jupyter notebook that is stored on UC Berkeley's servers. No installation is necessary from your end - you only need an internet browser and a CalNet ID to log in. By using the DataHub, you can save your work and come back to it at any time. When you want to return to your saved work, just go straight to [DataHub](https://datahub.berkeley.edu), sign in, and you click on the `Python-Data-Wrangling` folder.
 
-For this workshop, we'll go through an example using European unemployment data. We'll load, view, and modify the data as well as calculate some descriptive statistics. The idea is to get a sense of what it would be like to use pandas as part of your workflow.
+If you don't have a Berkeley CalNet ID, you can still run these lessons in the cloud, by clicking this button:
 
-We plan to cover:
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/dlab-berkeley/Python-Data-Wrangling/HEAD)
 
-* pandas data structures
-* loading data
-* subsetting and filtering
-* calculating summary statistics
-* dealing with missing values
-* merging data sets
-* creating new variables
-* basic plotting
-* exporting data
+By using this button, however, you cannot save your work.
 
-### 5. Resources
+# Additional Resources
 
 [Getting started with pandas](http://pandas.pydata.org/pandas-docs/stable/)
 
@@ -72,6 +65,25 @@ We plan to cover:
 
 [Visualization with pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
-### 6. Launch binder
+# About the UC Berkeley D-Lab
 
-If you have trouble installing the software or can otherwise not get the Jupyter Notebook to open, click this "launch binder" badge to start this session [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlab-berkeley/introduction-to-pandas/master)
+D-Lab works with Berkeley faculty, research staff, and students to advance data-intensive social science and humanities research. Our goal at D-Lab is to provide practical training, staff support, resources, and space to enable you to use R for your own research applications. Our services cater to all skill levels and no programming, statistical, or computer science backgrounds are necessary. We offer these services in the form of workshops, one-to-one consulting, and working groups that cover a variety of research topics, digital tools, and programming languages.  
+
+Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. You can view our [calendar](https://dlab.berkeley.edu/events/calendar) for upcoming events, learn about how to utilize our [consulting](https://dlab.berkeley.edu/consulting) and [data](https://dlab.berkeley.edu/data) services, and check out upcoming [workshops](https://dlab.berkeley.edu/events/workshops).
+
+# Other D-Lab Python Workshops
+
+Here are other Python workshops offered by the D-Lab:
+
+## Basic competency
+
+* [Python Fundamentals](https://github.com/dlab-berkeley/python-fundamentals)
+* [Introduction to Pandas](https://github.com/dlab-berkeley/introduction-to-pandas)
+* [Geospatial Fundamentals in Python](https://github.com/dlab-berkeley/Geospatial-Fundamentals-in-Python)
+
+## Intermediate/advanced competency
+
+* [Computational Text Analysis in Python](https://github.com/dlab-berkeley/computational-text-analysis-spring-2019)
+* [Introduction to Machine Learning in Python](https://github.com/dlab-berkeley/python-machine-learning)
+* [Introduction to Artificial Neural Networks in Python](https://github.com/dlab-berkeley/ANN-Fundamentals)
+* [Fairness and Bias in Machine Learning](https://github.com/dlab-berkeley/fairML)
