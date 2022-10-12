@@ -1,4 +1,4 @@
-# D-Lab's Python Data Wrangling Workshop
+# D-Lab Python Data Wrangling Workshop
 
 [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Data-Wrangling&urlpath=tree%2FPython-Data-Wrangling%2F&branch=main)
 [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/dlab-berkeley/Python-Data-Wrangling/HEAD)
@@ -37,10 +37,6 @@ Now that you have all the required software and materials, you need to run the c
 
 4. Press Shift + Enter (or Ctrl + Enter) to run a cell.
 
-5. By default, the necessary packages for this workshop should already be installed. You can install them within the Jupyter notebook by running the following line in its own cell:
-
-> ```!pip install -r requirements.txt```
-
 Note that all of the above steps can be run from the terminal, if you're familiar with how to interact with Anaconda in that fashion. However, using Anaconda Navigator is the easiest way to get started if this is your first time working with Anaconda.
 
 ## Is Python not working on your laptop? 
@@ -59,11 +55,8 @@ By using this button, however, you cannot save your work.
 
 # Additional Resources
 
-[Getting started with pandas](http://pandas.pydata.org/pandas-docs/stable/)
-
-[10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
-
-[Visualization with pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+* [The official pandas documentation](http://pandas.pydata.org/pandas-docs/stable/)
+* [Visualization with pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
 # About the UC Berkeley D-Lab
 
@@ -75,15 +68,16 @@ Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. Y
 
 Here are other Python workshops offered by the D-Lab:
 
-## Basic competency
+## Introductory Workshops
 
-* [Python Fundamentals](https://github.com/dlab-berkeley/python-fundamentals)
-* [Introduction to Pandas](https://github.com/dlab-berkeley/introduction-to-pandas)
-* [Geospatial Fundamentals in Python](https://github.com/dlab-berkeley/Geospatial-Fundamentals-in-Python)
+* [Python Fundamentals](https://github.com/dlab-berkeley/Python-Fundamentals)
+* [Python Data Wrangling](https://github.com/dlab-berkeley/Python-Data-Wrangling)
+* [Python Data Visualization](https://github.com/dlab-berkeley/Python-Data-Visualization)
+* [Python Geospatial Fundamentals](https://github.com/dlab-berkeley/Geospatial-Data-and-Mapping-in-Python)
 
-## Intermediate/advanced competency
+## Advanced Workshops
 
-* [Computational Text Analysis in Python](https://github.com/dlab-berkeley/computational-text-analysis-spring-2019)
-* [Introduction to Machine Learning in Python](https://github.com/dlab-berkeley/python-machine-learning)
-* [Introduction to Artificial Neural Networks in Python](https://github.com/dlab-berkeley/ANN-Fundamentals)
-* [Fairness and Bias in Machine Learning](https://github.com/dlab-berkeley/fairML)
+* [Python Web Scraping and APIs](https://github.com/dlab-berkeley/Python-Web-Scraping)
+* [Python Machine Learning](https://github.com/dlab-berkeley/Python-Machine-Learning)
+* [Python Text Analysis](https://github.com/dlab-berkeley/Python-Text-Analysis)
+* [Python Deep Learning](https://github.com/dlab-berkeley/Python-Deep-Learning)
